@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">mapeo</string>
+    <string name="facebook_app_id">171352023496511</string>
+    <string name="fb_login_protocol_scheme">fb171352023496511</string>
+</resources>

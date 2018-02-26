@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "181821395486",
+    "firebase_url": "https://mapeo-1eb48.firebaseio.com",
+    "project_id": "mapeo-1eb48",
+    "storage_bucket": "mapeo-1eb48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:181821395486:android:c7599e247951399c",
+        "android_client_info": {
+          "package_name": "com.example.adan.mapeo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "181821395486-40lgmvknafd93vnmjuteedffsj3tipcn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwyH-GTNWofiNFR6EFv9AK8d6qZEOS1zo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
