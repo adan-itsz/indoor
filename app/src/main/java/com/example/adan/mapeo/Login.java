@@ -147,6 +147,8 @@ public class Login extends AppCompatActivity  implements View.OnClickListener{
                             FirebaseUser user = mAuth.getCurrentUser();
                             Toast.makeText(Login.this,"ingreso exitoso",Toast.LENGTH_SHORT).show();
                             //updateUI(user);
+                            Intent intent=new Intent(Login.this,MainActivity.class);
+                            startActivity(intent);
                         } else {
                             // If sign in fails, display a message to the user.
                             Log.w("xxx", "signInWithCredential:failure", task.getException());
@@ -165,11 +167,14 @@ public class Login extends AppCompatActivity  implements View.OnClickListener{
         int i=v.getId();
         if(i==R.id.btnLogin){//login
             
-            if(!correo.getText().toString().isEmpty()&&password.getText().toString().isEmpty()) {
+
                 String Correo = correo.getText().toString();
                 String pass = password.getText().toString();
-                Ingresar(Correo, pass);
-            }
+                if(!Correo.isEmpty()&&!pass.isEmpty()){
+                    Toast.makeText(Login.this, "Ingreso correcto", Toast.LENGTH_SHORT).show();
+                    Ingresar(Correo, pass);
+                }
+
             else{
                 Toast.makeText(Login.this, "Llena los campos correctamente", Toast.LENGTH_SHORT).show();
 

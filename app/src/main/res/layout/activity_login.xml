@@ -57,8 +57,6 @@
 
 
 
-
-
     </LinearLayout>
         <com.facebook.login.widget.LoginButton
             android:id="@+id/login_button"
